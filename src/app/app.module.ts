@@ -14,8 +14,12 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
 import { FormsModule } from '@angular/forms';
-//servicios
+// servicios
 import { ServiceModule } from './services/service.module';
+import { PromesasComponent } from './pages/promesas/promesas.component';
+import { RxjsComponent } from './pages/rxjs/rxjs.component';
+
+
 
 
 
@@ -25,7 +29,10 @@ import { ServiceModule } from './services/service.module';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    PromesasComponent,
+    RxjsComponent,
+    
   ],
   imports: [
     BrowserModule,
